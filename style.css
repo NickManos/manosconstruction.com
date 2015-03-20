@@ -412,6 +412,7 @@ display:inline-block;
 #slideshow{
 width:750px;
 height:500px;
+object-fit: contain;
 }
 
 .caption-container{
