@@ -12,17 +12,26 @@
   <title>Manos Construction</title>
 </head>
 <body id='main'>
-<section id='menuBar'>
-MANOS <br>
-CONSTRUCTION
-</section>
-<div id='menu'>
-</div>
+
+   <nav class="nav-collapse">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  <a href="#" class="nav-toggle" aria-hidden="false">Menu</a>
+<script>
+  var nav = responsiveNav(".nav-collapse");
+</script>
 </body>
 <footer>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
   <script src="http://manostech.com/dev/jquery/jquery.slides.min.js"></script>
   <script src='scripts.js'></script>
+  <link rel="stylesheet" href="responsive-nav.css">
+  <script src="responsive-nav.min.js"></script>
 </footer>
 </html>
